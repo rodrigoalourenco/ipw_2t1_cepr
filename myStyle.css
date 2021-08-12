@@ -6,3 +6,11 @@ body {
 h1 {
 	color: blue;
 }
+
+#my-app {
+	background-color: blueviolet;
+}
+
+#my-app2 {
+	color: orange;
+}
