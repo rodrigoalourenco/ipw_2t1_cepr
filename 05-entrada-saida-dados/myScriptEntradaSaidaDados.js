@@ -19,7 +19,7 @@
  //utilizando o parseInt para resolver o problema com string
  var num1 = prompt("Digite um numero para soma: ");
  var num2 = prompt("Digite outro numero para soma: "); 
- var soma = parseInt(num1) + parseInt(num2);
+ var soma = parseInt(num1) + parseInt(num2);//20
  alert(soma); 
  console.log(soma);
  

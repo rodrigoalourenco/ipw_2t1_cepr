@@ -2,7 +2,7 @@
  * Manipulando DOM - Document Object Model
  */
 
-//recuperando elemento por di
+//recuperando elemento por id
 var elemento = document.getElementById('conteudo');
 console.log(elemento);
 
