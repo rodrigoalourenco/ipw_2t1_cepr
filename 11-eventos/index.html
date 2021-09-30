@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="../myStyle.css">
+</head>
+<!-- EVENTOS -->
+<!-- <body onload="console.log('Carreguei toda a página!!!')"> -->
+<!-- <body onresize="console.log('Eu mudei de tamanho!!!')"> -->
+<!-- <body onscroll="console.log('Subindo ou descendo a página!!!')"> -->
+<!-- <body onscroll="myScroll()"> -->
+<body>
+    <h1>APLICANDO EVENTOS EM JS</h1>
+    <p onclick="chamaFuncao()">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <label>Foco no elemento</label>
+    <input onfocus="console.log('Elemento ganhou o foco!!!')">
+    <br>
+    <label>Elemento Alterado</label>
+    <input onchange="console.log('Elemento perdeu o foco e foi alterado!!!')">
+    <br>
+    <label>Elemento perdeu o foco</label>
+    <input onblur="console.log('Elemento perdeu o foco!!!')">
+    <br>
+    <label>Selecionou um texto do elemento</label>
+    <input onselect="console.log('Texto do Elemento selecionado!!!')">
+    <br>
+    <form onsubmit="alert('Envio do formulário')">
+        <label>Nome</label>
+        <input type="text">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <form onreset="alert('Limpa o formulário')">
+        <label>Nome</label>
+        <input type="text">
+        <input type="reset" value="Limpar">
+    </form>
+    <hr>
+    <p  onmousedown="console.log('1 - mousedown')" 
+        onmouseup="console.log('2 - mouseup')" 
+        onclick="console.log('3 - click')">EVENTO MOUSEDOW MOUSEUP E CLICK</p>
+    <hr>
+    <p ondblclick="console.log('dbclick')">EVENTO DOUBLE CLICK</p>        
+    <hr>
+    <p onmousemove="console.log('mousemove')">EVENTO MOUSE MOVE (qndo o mouse passa por cima do elemanto)</p>
+    <hr>
+    <p onmouseover="console.log('mouseover')">EVENTO MOUSE OVER (qndo o mouse esta em um determinado elemento)</p>
+    <hr>
+    <p onmouseout="console.log('mouseout')">EVENTO MOUSE OUT (qndo o mouse sai de em um determinado elemento)</p>
+    <hr>
+    <label>Capturando eventos do teclado</label>
+    <input onkeydown="console.log('1 - apertando a tecla')"
+            onkeypress="console.log('2 - precionando a tecla')"
+            onkeyup="console.log('3 - desapertando a tecla')">
+    <hr>
+    <p id="fanta">FANTA LARANJA</p>   
+    <hr>
+    <p id="rexona">REXONA</p>        
+    <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique placerat lacinia. Ut cursus sollicitudin blandit. Etiam id elit gravida, sagittis nulla id, pharetra enim. Praesent tristique nulla eu purus aliquet consequat. Donec consectetur vel magna vel sagittis. Nulla et est venenatis, scelerisque elit vitae, sodales mauris. Nullam scelerisque nibh id sem ultricies lacinia. Mauris interdum libero nec tortor volutpat, eu tempor nisl consectetur. Cras vel tristique orci. Sed tristique erat sed sapien porttitor, sed ultrices nunc pharetra. Quisque ut ornare odio. In odio purus, volutpat vel dolor in, accumsan rhoncus risus. Maecenas dictum porttitor orci.
+        Pellentesque accumsan libero quis nisi finibus, sed porta ex convallis. Cras interdum sem sit amet lorem volutpat, a laoreet massa dignissim. Vivamus sed varius lacus, nec iaculis ipsum. Proin pharetra iaculis eros egestas dignissim. Vestibulum eget faucibus elit, ut accumsan sapien. Nulla ullamcorper sem at leo iaculis, in aliquam libero feugiat. Donec sed dui aliquam, gravida enim eget, accumsan tortor. Pellentesque ut ultricies sapien. Integer sed velit sit amet leo fermentum mattis et vel dui. Suspendisse dui neque, dignissim non molestie sit amet, mattis vitae mauris. Vivamus cursus nisl orci, in pellentesque massa tempor in. Nulla ac volutpat dui, eu accumsan lorem.
+        Morbi egestas cursus massa. Morbi viverra condimentum magna, vitae aliquam nibh mattis sed. Etiam pulvinar tellus at tempus placerat. Sed eleifend blandit neque, at dictum neque. Pellentesque consectetur felis et justo placerat, ultricies porttitor metus tincidunt. Suspendisse at libero ullamcorper, porttitor nibh a, efficitur erat. Maecenas consectetur cursus tristique. Phasellus ut dolor nunc. Morbi sodales massa justo. Nunc fringilla malesuada rhoncus. Sed a nulla accumsan, maximus tortor sollicitudin, volutpat diam.
+        Praesent molestie, augue sit amet sagittis rhoncus, erat odio pulvinar metus, pellentesque condimentum sapien sem eget libero. Aenean tempor, eros ac aliquet pellentesque, lorem quam volutpat elit, et ultricies ante velit ac purus. Pellentesque quis fermentum est. Integer et ex ornare, tempor tortor eu, sodales magna. Maecenas sit amet iaculis est. Nam sit amet ornare erat. Curabitur ultricies massa non quam rhoncus dapibus. In quam tortor, pulvinar quis lectus id, dictum euismod erat. Fusce molestie dui in magna rutrum pulvinar eu id sapien. Proin nec tortor nisi. Quisque condimentum finibus metus ut rhoncus. Aenean sit amet urna sodales, dictum orci sed, sagittis tellus. Morbi rutrum mi odio, vel egestas ante rhoncus in.
+        Fusce a sodales magna. Curabitur ultrices vestibulum mauris, in sodales elit vestibulum in. Aenean vel euismod augue, sit amet sagittis arcu. Proin commodo eros maximus libero tristique, nec bibendum sem posuere. Suspendisse interdum sem metus, ut efficitur libero pharetra ut. Integer vitae ex commodo, ultricies quam ut, posuere risus. Nam ullamcorper condimentum purus a dapibus. Aliquam malesuada enim aliquam nulla dapibus fermentum. Nam faucibus ex quis massa feugiat bibendum. Donec gravida pretium lorem ac convallis. Nunc sagittis sodales risus, eu faucibus velit aliquam sit amet. Fusce quis enim a libero vulputate vulputate eget a massa. Nam aliquet venenatis nulla et tincidunt.
+    </h5>
+    
+    <script src="myScriptEventos.js"></script>
+</body>
+</html>
