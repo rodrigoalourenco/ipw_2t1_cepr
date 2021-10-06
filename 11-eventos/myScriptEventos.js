@@ -22,4 +22,7 @@ conteudo.addEventListener('click', function() {
     console.log('Rexona não te abandona!!!');
 })
 
-elemento.removeEventListener('click', apertaBotao);
+/**
+ * METODO removeEventListener
+ */
+//elemento.removeEventListener('click', apertaBotao);
