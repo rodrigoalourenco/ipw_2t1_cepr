@@ -1,4 +1,4 @@
-/* JavaScript */
+/* JavaScript Puro*/
 // let esconder = document.getElementById("esconder")
 // esconder.onclick = function() {
 //     let elemDiv = document.getElementById("box");
