@@ -1,1 +1,1 @@
-console.log("Imprimindo no consolo do servidor!!!");
+console.log("Imprimindo no console do servidor!!!");
